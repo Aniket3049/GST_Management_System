@@ -1,0 +1,105 @@
+.container2 {
+    display: flex;
+    background-size:48%;
+    align-items:left;
+    justify-content: left;
+    padding: 20px;
+    height: 100vh;
+    background-image: url('./register.jpg');
+    background-position:right;
+    background-repeat: no-repeat;
+  position:relative;
+
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .header img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .form-container {
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    align-items:left;
+    height: 100vh;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+
+   bottom:10px;
+   left:0;
+   color:grey;
+   pointer-events:none;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="password"],
+  .form-group input[type="date"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+border:none;
+border-bottom: 1px solid black;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+  }
+  
+  .form-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .radio-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-group label {
+    margin-right: 20px;
+  }
+  
+  .btn {
+    background-color: hwb(272 46% 23%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color:#682168;
+  }
+  
+  .illustration {
+    width: 60%;
+    min-height:auto;
+
+    /* Add your own illustration styles here */
+  }

@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  justify-content:right;
+  align-items:right;
+  min-height: 100vh;
+  background-image: url('./gstm2.jpg');
+  background-size:45rem;
+  background-position:left;
+  background-repeat: no-repeat;
+}
+
+
+.right h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.right p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width:300px;
+  display: block;
+  margin-top: 5px;
+  text-decoration:none;
+  display:flex;
+
+}
+
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: hwb(300 85% 6%);
+
+}
+.form-group a {
+  padding-left: 50px;
+  text-decoration: none;
+
+}
+.form-group a:hover {
+  text-decoration: underline;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+button {
+  background-color: #8f4db0;
+  color: white;
+  width:100%;
+  padding:10px 20px;
+  border: none;
+  border-radius:0.75rem;
+  cursor: pointer;
+  font-size: 1em;
+
+
+ 
+
+  }
+
+
+button:hover {
+  background-color: #682168;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.footer a {
+  color: #8f4db0;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

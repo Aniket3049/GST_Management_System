@@ -1,0 +1,163 @@
+.container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('./gstm2.jpg');
+  background-size: 45rem;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.container1 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('./forget.jpg');
+  background-size:40rem;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+
+.right {
+  background-color:#dcb5ff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-align: left;
+  background-color:#e0cdea;
+  margin-right:15rem;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-align: left;
+}
+
+
+h2 {
+  font-size:2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.header p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+
+p {
+  margin-bottom: 30px;
+  color: #555;
+}
+.form-container {
+  width: 100%;
+justify-content: right;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  margin-bottom:15px;
+  width: 300px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius:0.75rem;
+  box-sizing: border-box;
+  background-color:white;
+}
+
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-group Link{
+  offset-distance: 20px;
+}
+
+
+.form-group Link:hover {
+  text-decoration: underline;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+
+button {
+  display:flex;
+  justify-content:center;
+align-items:center;
+  background-color: hwb(272 46% 23%);
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+ border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+ margin-top:30px;
+
+}
+
+button:hover {
+  background-color: #682168;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer p {
+  font-size: 0.9em;
+  color: #555;
+  text-align:center;
+}
+
+.footer Link {
+  color: #8f4db0;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
