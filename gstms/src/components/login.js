@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
+
 
 import './App.css';
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
@@ -19,7 +21,22 @@ function Login() {
     console.log('Email:', email);
     console.log('Password:', password);
     alert("username and password entered successfully");
-  };
+    try {
+      // Call your login API or perform login logic here
+      // For demonstration purposes, let's assume the login is successful
+      const isLoggedIn = true;
+      if (isLoggedIn) {
+        navigate('/Dashborad', { replace: true });
+      } else {
+        alert('Invalid username or password');
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+
+  
 
   return (
     <div className='container'>
@@ -52,6 +69,7 @@ function Login() {
           <div className="form-group">
             <input type="checkbox" id="remember" />
             <label htmlFor="remember">Remember</label>
+            &nbsp;&nbsp;&nbsp;
             <Link to="/Forgot">Forgot password?</Link>
           </div>
           <button type="submit">Login</button>
